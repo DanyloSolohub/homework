@@ -19,7 +19,7 @@
     //document.write(`<div>weofledledewpdepdw</div>`)}
 
 //for (i = 0; i<10;i++){
-    //document.write(`<div>weofledledewpdepdw ${i}</div>`
+    //document.write(`<div>weofledledewpdepdw ${i}</div>`)
 //let start = 0;
 //while (start < 20){
   //  document.write(`<h1>cpdcwp</h1>`)
@@ -83,15 +83,15 @@
  //     document.write(i);
  // }
 
- // for (i=0;i<100;i=i+2){
- //     console.log(i);
- //     document.write(i);
- // }
+   // for (let i=0;i<100;i=i+2){
+   //     console.log(i/2);
+   //     document.write(i/2 + `<br>`);
+   // }
 
- // for (i=1;i<=100;i=i+2){
- //      console.log(i);
- //      document.write(i);
- //  }
+  // for (let i=1;i<=100;i=i+2){
+  //      console.log((i+1)/2);
+  //      document.write((i+1)/2);
+  //  }
 
 //!!!CLOCK!!!
 
@@ -163,18 +163,66 @@
  //     console.log(arr[i])
  // }
 
+ //5.замінити кожне число кратне 3 на слово "okten"
+
+ //  let arr = [2,17,13,6,22,31,45,66,100,-18]
+ //     for (let i=0;i<arr.length;i++){
+ //         if (arr[i] % 3 === 0){
+ //            arr[i] = `okten`
+ //
+ //         }
+ //         console.log(arr[i])
+ //     }
 
 
+//8. вивести масив в зворотньому порядку.
+
+ // let arr = [2,17,13,6,22,31,45,66,100,-18]
+ //
+ // for (let i=arr.length-1;i>=0;i--){
+ //      console.log(arr[i])
+ //  }
 
 
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 
+ // let arr = [2,17,13,6,22,31,45,66,100,-18]
+ // let i =arr.length-1
+ // while (i >= 0){
+ //     console.log(arr[i])
+ //     i--
+ // }
 
+ // let arr = [2,17,13,6,22,31,45,66,100,-18]
+ // for (let i=arr.length-1;i>=0;i--){
+ //     console.log(arr[i])
+ // }
 
+ // let arr = [2,17,13,6,22,31,45,66,100,-18]
+ // for (let i=arr.length-1;i>=0;i--){
+ //     if (arr[i] % 3 === 0){
+ //         arr[i] = `okten`
+ //     }
+ //     console.log(arr[i])
+ // }
 
+ // let arr = [2,17,13,6,22,31,45,66,100,-18]
+ // for (let i=arr.length-1;i>=0;i=i-2){
+ //     console.log(arr[i])
+ // }
 
+ let arr = []
 
+   for (let i=0;i<=100;i=i+2) {
+       arr[i] = i
+       //console.log(arr[i])
+   }
 
-
+   for (let j=1;j<100;j=j+2) {
+         arr[j] = j
+         //console.log(arr[j])
+     }
+    console.log(arr)
 
 
 
