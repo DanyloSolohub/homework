@@ -211,22 +211,18 @@
  //     console.log(arr[i])
  // }
 
- let arr = []
-
-   for (let i=0;i<=100;i=i+2) {
-       arr[i] = i
-       //console.log(arr[i])
-   }
-
-   for (let j=1;j<100;j=j+2) {
-         arr[j] = j
-         //console.log(arr[j])
-     }
-    console.log(arr)
-
-
-
-
+ // let arr = []
+ //
+ //   for (let i=0;i<=100;i=i+2) {
+ //       arr[i] = i
+ //       //console.log(arr[i])
+ //   }
+ //
+ //   for (let j=1;j<100;j=j+2) {
+ //         arr[j] = j
+ //         //console.log(arr[j])
+ //     }
+ //    console.log(arr)
 
 
 
