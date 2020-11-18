@@ -193,6 +193,89 @@
 //     status ? alert(`Bad`) : alert('Good')
 // }
 
+//Создать три чекбокса. Каждый из них активирует фильтр для вышеуказаного массива.
+// Фильтры могут работать как вместе так и по отдельности.
+// 1й - отфильтровывает пользователей со статусом false (осталяет со статусом false)
+// 2й - оставляет старше 29 лет включительно
+// 3й - оставляет тех у кого город киев
+// Данные выводить в документ
+
+// let usersWithAddress = [
+//     {id:1,name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+//     {id:2,name: 'petya', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 1}},
+//     {id:3,name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}},
+//     {id:4,name: 'olya', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 90}},
+//     {id:5,name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
+//     {id:6,name: 'anya', age: 31, status: false, address: {city: 'Kyiv', street: 'Shevchenko', number: 2}},
+//     {id:7,name: 'oleg', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 22}},
+//     {id:8,name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 43}},
+//     {id:9,name: 'masha', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 12}},
+//     {id:10,name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+//     {id:11,name: 'max', age: 31, status: true, address: {city: 'Ternopil', street: 'Shevchenko', number: 121}}]
+//
+//
+//
+//   const content = document.getElementById(`content`)
+//     const userdivka = document.createElement(`div`)
+//     userdivka.className = `user`
+//     userdivka.appendChild(rendercontent(usersWithAddress))
+//
+//
+//
+//
+//
+// const input1 = document.createElement(`input`)
+// const input2 = document.createElement(`input`)
+// const input3 = document.createElement(`input`)
+//
+// const lable1 = document.createElement(`label`)
+// const lable2 = document.createElement(`label`)
+// const lable3 = document.createElement(`label`)
+//
+// const button = document.createElement(`button`)
+//
+// lable1.innerText = `со статусом false`
+// lable2.innerText = `старше 29 лет`
+// lable3.innerText = `город киев`
+//
+// button.innerText = `Filter!`
+//
+// input1.type = `checkbox`
+// input2.type = `checkbox`
+// input3.type = `checkbox`
+//
+// content.appendChild(userdivka)
+//
+// content.appendChild(lable1)
+// content.appendChild(input1)
+// content.appendChild(lable2)
+// content.appendChild(input2)
+// content.appendChild(lable3)
+// content.appendChild(input3)
+// content.appendChild(button)
+//
+// button.onclick = ev => {
+//     let myArray = JSON.parse(JSON.stringify(usersWithAddress))
+//
+//     if (input1.checked) myArray = myArray.filter(value => !value.status)
+//     if (input2.checked) myArray = myArray.filter(value => value.age >= 29)
+//     if (input3.checked) myArray = myArray.filter(value => value.address.city === `Kyiv`)
+//
+//     userdivka.innerHTML = ``;
+//     userdivka.appendChild(rendercontent(myArray))
+// }
+//
+// function rendercontent (array){
+//     const main = document.createElement(`div`)
+// array.forEach(item =>{
+//     const div = document.createElement(`div`)
+//     div.innerHTML = JSON.stringify(item)
+//     main.appendChild(div)
+//
+// })
+//     return main;
+// }
+
 
 
 
