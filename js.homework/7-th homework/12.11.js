@@ -158,6 +158,7 @@
 //     content.appendChild(rightbtn)
 //
 //
+//
 //     leftbtn.onclick = ev => {
 //       if ( i - 1 < 0 ){
 //          i = Karusel.length - 1
