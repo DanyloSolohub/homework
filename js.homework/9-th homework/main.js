@@ -303,7 +303,7 @@ async function sdad(){
     console.log(maska)
     const seat = await  bus1(1)
     console.log(seat)
-    const karantyn = await palitex1(0)
+    const karantyn = await palitex1(1)
     console.log(karantyn)
 
 

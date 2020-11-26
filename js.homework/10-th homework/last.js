@@ -8,13 +8,13 @@ function typewriter(string,i) {
     },Math.random()*1000)
     })
 }
-async function xXx() {
-    for (let i = 0; i < 100; i++) {
-    const value = await typewriter(`Hello World`,i)
+async function xXx(str) {
+    for (let i = 0; i < str.length; i++) {
+    const value = await typewriter(str,i)
     console.log(value)
 }
 }
-xXx()
+xXx(`Hello World`)
 
 
 
